@@ -11,6 +11,7 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 4.6.2'
 gem 'carrierwave'
+gem 'mini_magick'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

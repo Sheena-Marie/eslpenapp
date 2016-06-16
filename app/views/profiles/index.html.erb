@@ -19,7 +19,7 @@
   <tbody>
     <% @profiles.each do |profile| %>
       <tr>
-        <td><%= profile.avatar %></td>
+        <td><img src="<%= profile.avatar_url.to_s %>" width="25%"></td>
         <td><%= profile.language %></td>
         <td><%= profile.age %></td>
         <td><%= profile.location %></td>
