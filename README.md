@@ -22,7 +22,6 @@
 - bootstrap-sass
 - font-awesome
 - font-awesome-sass
-- country-select
 
 ####Uploaders
 
