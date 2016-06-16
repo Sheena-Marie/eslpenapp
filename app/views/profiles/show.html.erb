@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Class Picture:</strong>
+  <%= @profile.avatar %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @profile.language %>
+</p>
+
+<p>
+  <strong>Average Age:</strong>
+  <%= @profile.age %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @profile.location %>
+</p>
+
+<p>
+  <strong>Number of Students</strong>
+  <%= @profile.number_of_students %>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @profile.gender %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @profile.bio %>
+</p>
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>

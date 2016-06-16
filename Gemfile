@@ -1,5 +1,16 @@
 source 'https://rubygems.org'
 
+# Code Quality Tools
+gem 'traceroute'
+gem 'rubocop', require: false
+gem 'rubycritic', :require => false
+gem 'brakeman'
+
+# To make it pretty
+gem 'simple_form'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass', '~> 4.6.2'
+gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -44,4 +55,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
