@@ -27,6 +27,11 @@
 
 - carrierwave
 
+####For security
+
+- devise
+- figaro
+
 <!-- * System dependencies -->
 
 <!-- * Configuration -->
