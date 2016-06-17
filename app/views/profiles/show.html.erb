@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <img src="<%= @profile.avatar_url.to_s %>" width="75%" height="75%">
+  <img src="<%= @profile.avatar_url.to_s if @profile.avatar_url.present? %>" width="75%" height="75%">
 </p>
 
 <p>

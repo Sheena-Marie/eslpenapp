@@ -25,7 +25,7 @@
         <td><%= profile.location %></td>
         <td><%= profile.number_of_students %> </td>
         <td><%= profile.gender %></td>
-        <td><%= truncate(profile.bio, :length => 80) %></td>
+        <td><%= truncate(profile.bio, :length => 50) %></td>
         <td><%= link_to 'Show', profile %></td>
         <td><%= link_to 'Edit', edit_profile_path(profile) %></td>
         <td><%= link_to 'Delete', profile, method: :delete, data: { confirm: 'Are you sure?' } %></td>

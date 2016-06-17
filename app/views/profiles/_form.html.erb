@@ -3,13 +3,20 @@
 
   <div class="form-inputs">
 
-    <%= f.input :avatar %>
-    <%= f.input :language %>
-    <%= f.input :age %>
-    <%= f.input :location %>
-    <%= f.input :number_of_students %>
-    <%= f.input :gender %>
-    <%= f.input :bio %>
+    <%= f.input :avatar, label: 'Upload a class photo' %>
+
+    <%= f.input :language, label: 'What is their native language?', required: true %>
+
+    <%= f.input :age, label: 'What is the average age of the class?', required: true %>
+
+    <%= f.input :location, label: 'What country is the class located in?' %>
+
+    <%= f.input :number_of_students, label: 'How many students are in the class?', required: true %>
+
+    <%= f.input :gender, label: 'What gender is the class? (Male/Female/Mixed)', collection: [:male, :female, :mixed] %>
+
+    <%= f.input :bio, input_html: {maxlength: 600}, label: 'Tell us about your class (600 characters maximum)' %>
+
   </div>
 
   <div class="form-actions">
