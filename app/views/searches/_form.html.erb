@@ -1,0 +1,11 @@
+<%= simple_form_for :search, url: profiles_path  do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%=f.input :search, input_html: { value: @search['search']} %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, label: 'search', class: 'btn btn-lg btn-info' %>
+  </div>
+<% end %>

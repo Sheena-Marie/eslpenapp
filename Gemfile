@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 # Code Quality Tools
 gem 'traceroute'
 gem 'rubocop', require: false
@@ -16,6 +18,7 @@ gem 'country-select'
 
 # For security
 gem 'devise'
+gem 'figaro'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
