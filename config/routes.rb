@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'layouts/search'
 
   resources :profiles
-  resources :profiles
+  # resources :profiles
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
