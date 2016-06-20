@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
+  resources :profiles
   resources :searches
+  resources :charges
+
+
   devise_for :users
   get 'home/index'
   root 'home#index'
   get 'layouts/search'
 
-  resources :profiles
+
   # resources :profiles
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
