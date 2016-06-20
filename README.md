@@ -1,6 +1,22 @@
 #ESL Penpal App
 
-Aborted attempt: https://github.com/Sheena-Marie/penpalapp
+##Aborted attempt: https://github.com/Sheena-Marie/penpalapp
+
+##Wireframes:
+https://project2-cfa-sheena.mybalsamiq.com/projects/esl-penpal-app/prototype/Landing%20Page?key=2a80392b8d7b4d0a0a8b30943b30a1896ca3b413
+
+##Trello Boards:
+
+###Automated Features: https://trello.com/b/msxaPFgL/automated-features
+
+###Paid Tiers
+https://trello.com/b/BEBNIBeZ/paid-tiers
+
+###To Do Lists
+https://trello.com/b/dCQrVbS1/to-do-lists
+
+###User Stories
+https://trello.com/b/fWmEysfk/user-stories
 
 ##Ruby version
 
