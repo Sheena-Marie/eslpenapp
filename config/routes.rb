@@ -1,13 +1,15 @@
 Rails.application.routes.draw do
   resources :profiles
-  resources :searches
+  # resources :searches
   resources :charges
 
 
   devise_for :users
   get 'home/index'
   root 'home#index'
-  get 'layouts/search'
+  get '/searches' => 'searches#index'
+  post '/searches' => 'searches#index'
+  # get 'layouts/search'
 
 
   # resources :profiles

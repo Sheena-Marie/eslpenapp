@@ -49,15 +49,15 @@
         </td>
 
         <td>
-          <%= link_to 'Show', profile, class: 'btn btn-sm btn-info' %>
+          <%= link_to 'Show', profile, class: 'btn btn-xs btn-info' %>
         </td>
 
         <td>
-          <%= link_to 'Edit', edit_profile_path(profile), class: 'btn btn-sm btn-success' %>
+          <%= link_to 'Edit', edit_profile_path(profile), class: 'btn btn-xs btn-success' %>
         </td>
 
         <td>
-          <%= link_to 'Delete', profile, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-danger' %>
+          <%= link_to 'Delete', profile, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-xs btn-danger' %>
         </td>
 
       </tr>
@@ -69,6 +69,6 @@
 
 
 <%= link_to 'New subscription', new_charge_path, class: 'btn btn-group btn-default' %>
-<%= link_to 'Search Profiles', new_search_path, class: 'btn btn-group btn-warning' %>
+<%= link_to 'Search Profiles', searches_path, class: 'btn btn-group btn-warning' %>
 <%= link_to 'Create a Profile', new_profile_path, class: 'btn btn-group btn-info' %>
 <%= link_to 'Main Page', home_index_path, class: 'btn btn-primary btn-group' %>

@@ -1,25 +1,29 @@
 <p id="notice"><%= notice %></p>
 
+<%= link_to 'Profiles', profiles_path %>
+
 <h1>Listing Searches</h1>
+
+<%= form_tag :method => 'GET' %>
+  <%= text_field_tag :search, params[:search] %>
+  <%= submit_tag 'Search' %>
 
 <table>
   <thead>
     <tr>
-      <th colspan="3"></th>
+      <th>Avatar</th>
+      <th>Location</th>
+      <th></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @searches.each do |search| %>
+    <% @profiles.each do |profile| %>
       <tr>
-        <td><%= link_to 'Show', search %></td>
-        <td><%= link_to 'Edit', edit_search_path(search) %></td>
-        <td><%= link_to 'Destroy', search, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= image_tag profile.avatar,  width: '32' %></td>
+        <td><%= profile.language %></td>
+        <td><%= link_to 'Show', profile %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New Search', new_search_path %>
