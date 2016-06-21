@@ -14,7 +14,6 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 4.6.2'
 gem 'carrierwave'
 gem 'country-select'
-gem 'cloudinary'
 
 # For security
 gem 'devise'

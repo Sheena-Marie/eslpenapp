@@ -1,15 +1,6 @@
 # encoding: utf-8
 
 class AvatarUploader < CarrierWave::Uploader::Base
-  include Cloudinary::CarrierWave
-
-  version :standard do
-    process :eager => true
-  end
-
-  version :thumbnail do
-    eager
-  end
 
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
