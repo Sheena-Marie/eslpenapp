@@ -13,8 +13,8 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 4.6.2'
 gem 'carrierwave'
-gem 'mini_magick'
 gem 'country-select'
+gem 'cloudinary'
 
 # For security
 gem 'devise'
